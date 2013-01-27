@@ -1,0 +1,24 @@
+[user]
+	name = Sebastian Gun
+	email = sebastian.gun@mercadolibre.com
+[merge]
+	tool = kdiff3
+[color]
+	ui = always
+[color "branch"]
+	current = yellow reverse
+	local = yellow
+	remote = green
+[color "diff"]
+	meta = yellow bold
+	frag = magenta bold
+	old = red bold
+	new = green bold
+[color "status"]
+	added = green
+	changed = cyan
+	untracked = red
+[branch]
+	autosetupmerge = true
+[core]
+	autocrlf = false
