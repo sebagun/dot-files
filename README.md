@@ -6,11 +6,9 @@ Configuration files for many applications I use, under a unix environment.
 Installation
 ------------
 
-git clone git@github.com:sebagun/dot-files.git
-
-cd dot-files
-
-./install
+git clone git@github.com:sebagun/dot-files.git  
+cd dot-files  
+./install  
 
 That's all folks!
 
