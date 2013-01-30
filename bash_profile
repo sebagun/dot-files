@@ -38,7 +38,7 @@ alias grep='grep --color'
 alias egrep='egrep --color'
 alias fgrep='fgrep --color'
 alias query_ow='sh q.sh'
-alias robin='ssh sgun@172.16.0.23'
+alias robin='ssh sgun@172.16.0.20'
 alias batman='ssh -t sgun@10.100.41.3'
 alias gitk='gitk > /dev/null 2> /dev/null'
 
