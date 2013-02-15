@@ -50,6 +50,9 @@ alias gitk='gitk > /dev/null 2> /dev/null'
 source ~/.git-completion.bash
 source ~/.git-prompt.sh
 
+# To prevent git from prompting me for a commit message on automatic merges
+export GIT_MERGE_AUTOEDIT=no
+
 # Git branch name in the prompt
 green=$(tput setaf 2)
 blue=$(tput setaf 4)
