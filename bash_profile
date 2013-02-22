@@ -3,10 +3,10 @@
 #########################
 
 export GRAILS_HOME=$HOME/soft/grails-1.3.7
-export PATH=$PATH:$HOME/bin:$GRAILS_HOME/bin
+export PATH=$PATH:/usr/local/sbin:$HOME/bin:$GRAILS_HOME/bin
 
 # MacPorts Installer addition on 2013-01-11_at_12:07:12: adding an appropriate PATH variable for use with MacPorts.
-export PATH=/opt/local/bin:/opt/local/sbin:$PATH
+#export PATH=/opt/local/bin:/opt/local/sbin:$PATH
 # Finished adapting your PATH environment variable for use with MacPorts.
 
 ##############################
