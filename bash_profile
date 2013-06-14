@@ -41,6 +41,7 @@ alias query_ow='sh q.sh'
 alias robin='ssh sgun@172.16.0.20'
 alias batman='ssh -t sgun@10.100.41.3'
 alias gitk='gitk > /dev/null 2> /dev/null'
+alias server='python -m SimpleHTTPServer'
 
 ################
 # APPS TUNNING #
