@@ -5,6 +5,9 @@
 export GRAILS_HOME=$HOME/soft/grails-1.3.7
 export PATH=$PATH:/usr/local/sbin:$HOME/bin:$GRAILS_HOME/bin
 
+# MELI's environment variables that I cannot make public on GitHub! MELI-USER, MELI-PASS, MELI-DEPT
+source ~/meli-env.sh
+
 # MacPorts Installer addition on 2013-01-11_at_12:07:12: adding an appropriate PATH variable for use with MacPorts.
 #export PATH=/opt/local/bin:/opt/local/sbin:$PATH
 # Finished adapting your PATH environment variable for use with MacPorts.
@@ -24,9 +27,6 @@ if [ -z "$(pgrep redis)" ]
 then
 	$HOME/soft/redis-2.6.8/src/redis-server &
 fi
-
-# mocks de fraude
-# node $HOME/repos/fraud-mocks/server/mock.js &
 
 ###########
 # ALIASES #
