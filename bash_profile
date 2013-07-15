@@ -54,11 +54,12 @@ source ~/.git-prompt.sh
 # To prevent git from prompting me for a commit message on automatic merges
 export GIT_MERGE_AUTOEDIT=no
 
-# Git branch name in the prompt
+# Git branch name in the prompt. See http://en.wikipedia.org/wiki/Tput
 green=$(tput setaf 2)
-blue=$(tput setaf 4)
-bold=$(tput bold)
+purple=$(tput setaf 5)
 red=$(tput setaf 1)
+yellow=$(tput setaf 3)
+bblue=$(tput setab 4)
 reset=$(tput sgr0)
-PS1='\u@\[$green\]\h\[$reset\]:\w\[$blue\]$(__git_ps1)\[$reset\] \$ '
+PS1='\[$yellow\]\u\[$red\]@\[$green\]\h\[$reset\]:\w\[$purple\]\[$bblue\]$(__git_ps1)\[$reset\] \$ '
 
