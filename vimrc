@@ -8,12 +8,13 @@ set showmatch                                     "jump to matching bracket
 set smartcase                                          "if caps, watch case
 set ignorecase                               "if all lowercase, ignore case
 " displaying text ---------------------------------------------------------
-set number
+set number                                                "put line numbers
 set linebreak                                          "wraps between words
 set scrolloff=1
 " syntax, highlighting and spelling ---------------------------------------
 syntax on
 set hlsearch                                     "highlights search results
+set cursorline                              "highlights current cursor line
 set background=dark
 " messages and info -------------------------------------------------------
 set showcmd                                       "show normal etc commands
