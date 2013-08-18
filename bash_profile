@@ -29,9 +29,9 @@ then
 fi
 
 # development mockups
-node $HOME/repos/mpsitetool-components/mock/server.js > /dev/null 2> /dev/null &
-cd $HOME/repos/auth-oauth_frontend_mocks; node index.js > /dev/null 2> /dev/null &
-cd
+#node $HOME/repos/mpsitetool-components/mock/server.js > /dev/null 2> /dev/null &
+#cd $HOME/repos/auth-oauth_frontend_mocks; node index.js > /dev/null 2> /dev/null &
+#cd
 
 ###########
 # ALIASES #
