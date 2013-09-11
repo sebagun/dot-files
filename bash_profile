@@ -5,7 +5,7 @@
 export GRAILS_HOME=$HOME/soft/grails-1.3.7
 export PATH=$PATH:/usr/local/sbin:$HOME/bin:$GRAILS_HOME/bin
 
-# MELI's environment variables that I cannot make public on GitHub! MELI-USER, MELI-PASS, MELI-DEPT
+# MELI's environment variables that I cannot make public on GitHub! MELI_USER, MELI_PASS, MELI_DEPT, DEPT
 source ~/meli-env.sh
 
 # MacPorts Installer addition on 2013-01-11_at_12:07:12: adding an appropriate PATH variable for use with MacPorts.
