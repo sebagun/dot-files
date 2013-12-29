@@ -33,6 +33,8 @@ fi
 #cd $HOME/repos/auth-oauth_frontend_mocks; node index.js > /dev/null 2> /dev/null &
 #cd
 
+[ -s $HOME/.nvm/nvm.sh ] && . $HOME/.nvm/nvm.sh # This loads NVM
+
 ###########
 # ALIASES #
 ###########
