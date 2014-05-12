@@ -25,15 +25,12 @@ fi
 # redis
 if [ -z "$(pgrep redis)" ]
 then
-	$HOME/soft/redis-2.6.8/src/redis-server &
+	redis-server &
 fi
 
-# development mockups
-#node $HOME/repos/mpsitetool-components/mock/server.js > /dev/null 2> /dev/null &
-#cd $HOME/repos/auth-oauth_frontend_mocks; node index.js > /dev/null 2> /dev/null &
-#cd
-
-[ -s $HOME/.nvm/nvm.sh ] && . $HOME/.nvm/nvm.sh # This loads NVM
+# NVM & GVM
+[ -s $HOME/.nvm/nvm.sh ] && . $HOME/.nvm/nvm.sh
+[[ -s "/Users/sgun/.gvm/bin/gvm-init.sh" ]] && source "/Users/sgun/.gvm/bin/gvm-init.sh"
 
 ###########
 # ALIASES #
