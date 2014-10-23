@@ -1,4 +1,5 @@
 " TAKEN FROM: https://github.com/andrew8088/dotfiles ----------------------
+" TAKEN FROM: https://github.com/martinklepsch/.vim -----------------------
 " -------------------------------------------------------------------------
 " important ---------------------------------------------------------------
 set nocompatible                                      "don't behave like Vi
@@ -10,7 +11,7 @@ set ignorecase                               "if all lowercase, ignore case
 " displaying text ---------------------------------------------------------
 set number                                                "put line numbers
 set linebreak                                          "wraps between words
-set scrolloff=1
+set scrolloff=1        "Always display at least one line to the window edge
 " syntax, highlighting and spelling ---------------------------------------
 syntax on
 set hlsearch                                     "highlights search results
@@ -22,6 +23,11 @@ set ruler                                             "show cursor position
 " editing text ------------------------------------------------------------
 set nrformats-=octal                  "0-prefixed numbers are still decimal
 set backspace=indent,eol,start                          "proper backspacing
+set autoread           "auto reload a file when is changed from the outside
+" don't do any backups while editing a file -------------------------------
+set nobackup
+set nowritebackup
+set noswapfile
 " tabs and indenting ------------------------------------------------------
 set autoindent
 set smartindent
