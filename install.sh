@@ -7,5 +7,6 @@ ln -svF $PWD/git-prompt.sh ~/.git-prompt.sh
 ln -svF $PWD/gitconfig ~/.gitconfig
 ln -svF $PWD/gitk ~/.gitk
 ln -svF $PWD/kdiff3rc ~/.kdiff3rc
+ln -svF $PWD/hushlogin ~/.hushlogin
 
 echo "DONE!"
