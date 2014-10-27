@@ -1,5 +1,6 @@
 " TAKEN FROM: https://github.com/andrew8088/dotfiles ----------------------
 " TAKEN FROM: https://github.com/martinklepsch/.vim -----------------------
+" TAKEN FROM: https://github.com/mathiasbynens/dotfiles/blob/master/.vimrc-
 " -------------------------------------------------------------------------
 " important ---------------------------------------------------------------
 set nocompatible                                      "don't behave like Vi
@@ -20,10 +21,15 @@ set background=dark
 " messages and info -------------------------------------------------------
 set showcmd                                       "show normal etc commands
 set ruler                                             "show cursor position
+set title                         "Show the filename in the window titlebar
 " editing text ------------------------------------------------------------
 set nrformats-=octal                  "0-prefixed numbers are still decimal
 set backspace=indent,eol,start                          "proper backspacing
 set autoread           "auto reload a file when is changed from the outside
+set clipboard=unnamed                      "Use the OS clipboard by default
+set encoding=utf-8 nobomb                            "Use UTF-8 without BOM
+set binary
+set noeol                     "Don’t add empty newlines at the end of files
 " don't do any backups while editing a file -------------------------------
 set nobackup
 set nowritebackup
@@ -45,8 +51,9 @@ set timeout                               "Fixes slow O inserts (all three)
 set timeoutlen=1000
 set ttimeoutlen=100
 " command line editing ----------------------------------------------------
-set wildmenu
+set wildmenu                               "Enhance command-line completion
 set wildmode=full
 " various -----------------------------------------------------------------
 set gdefault "includes the g option as default in the substitute :s command
+set ttyfast                         "Optimize for fast terminal connections
 " -------------------------------------------------------------------------
