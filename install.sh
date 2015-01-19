@@ -8,5 +8,6 @@ ln -svF $PWD/gitconfig ~/.gitconfig
 ln -svF $PWD/gitk ~/.gitk
 ln -svF $PWD/kdiff3rc ~/.kdiff3rc
 ln -svF $PWD/hushlogin ~/.hushlogin
+ln -svF $PWD/grails_autopick.sh ~/grails_autopick.sh
 
 echo "DONE!"

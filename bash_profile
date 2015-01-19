@@ -2,8 +2,10 @@
 # ENVIRONMENT VARIABLES #
 #########################
 
+export GOPATH=/usr/local/go
 export GRAILS_HOME=$HOME/soft/grails-1.3.7
-export PATH=$PATH:/usr/local/sbin:$HOME/bin:$GRAILS_HOME/bin
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.7.0_55.jdk/Contents/Home
+export PATH=$PATH:/usr/local/sbin:$HOME/bin:$GRAILS_HOME/bin:$JAVA_HOME/bin
 
 # MELI's environment variables that I cannot make public on GitHub!
 source ~/meli-env.sh
@@ -30,7 +32,7 @@ fi
 
 # NVM & GVM
 [ -s $HOME/.nvm/nvm.sh ] && . $HOME/.nvm/nvm.sh
-[[ -s "/Users/sgun/.gvm/bin/gvm-init.sh" ]] && source "/Users/sgun/.gvm/bin/gvm-init.sh"
+[[ -s $HOME/.gvm/bin/gvm-init.sh ]] && source $HOME/.gvm/bin/gvm-init.sh
 
 ###########
 # ALIASES #
@@ -47,6 +49,9 @@ alias server='python -m SimpleHTTPServer'
 ################
 # APPS TUNNING #
 ################
+
+# Auto grails version switcher
+source ~/grails_autopick.sh
 
 # Autocomplete for git
 source ~/.git-completion.bash
