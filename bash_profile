@@ -31,9 +31,9 @@ then
 	redis-server &
 fi
 
-# NVM & GVM
+# NVM & SDKMAN
 [ -s $HOME/.nvm/nvm.sh ] && . $HOME/.nvm/nvm.sh
-[[ -s $HOME/.gvm/bin/gvm-init.sh ]] && source $HOME/.gvm/bin/gvm-init.sh
+[[ -s $HOME/.sdkman/bin/sdkman-init.sh ]] && source $HOME/.sdkman/bin/sdkman-init.sh
 
 ###########
 # ALIASES #
