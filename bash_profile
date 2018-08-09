@@ -46,6 +46,7 @@ alias egrep='egrep --color'
 alias fgrep='fgrep --color'
 alias gitk='gitk > /dev/null 2> /dev/null'
 alias server='python -m SimpleHTTPServer'
+alias json='python -m json.tool'
 
 ################
 # APPS TUNNING #
