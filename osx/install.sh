@@ -3,6 +3,7 @@
 mkdir -p ~/Library/KeyBindings/; touch ~/Library/KeyBindings/DefaultKeyBinding.dict
 ln -svF $PWD/DefaultKeyBinding.dict ~/Library/KeyBindings/DefaultKeyBinding.dict
 ln -svF $PWD/Preferences.sublime-settings.User ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/User/Preferences.sublime-settings
+ln -svF $PWD/Preferences.sublime-settings.User3 ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Preferences.sublime-settings
 
 ### Nice hacks ###
 # http://apple.stackexchange.com/questions/71939/how-to-get-keyboard-focus-on-login-screen-password-field-in-os-x-10-8
